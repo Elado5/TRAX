@@ -1,0 +1,114 @@
+
+.navbar {
+    width: 100%;
+    padding: 0%;
+    border-bottom: inset;
+    border-bottom-color: aliceblue;
+    background: url("imgs/logo\ backgroundF.jpg") no-repeat center center;
+    background-size: cover;
+    height: auto;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 28, 80);
+    opacity: 85%;
+}
+
+.navbar-brand{
+    z-index: 1;
+    opacity: 90%;
+
+}
+
+.nav-item {
+   
+    font-size: 40px;
+    font-weight: 300;
+    padding-right: 2vh;
+    padding-left: 2vh;
+    text-shadow: 0px 0px 3px darkgrey;
+    z-index: 1;
+
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+    padding-right: 3vw;
+}
+
+
+.main-video {
+    position: relative;
+    height: 100vh;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .main-video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+.section h1{
+    position: absolute;
+    text-align: center;
+    font-size: 4.2rem;
+    font-family: "Righteous";
+    text-shadow: 0px 0px 8px #ffffff3d;;
+    color: rgba(224, 241, 255, 0.58);
+    margin: 25%;
+    margin-top: 20%;
+    letter-spacing: 15px;
+}
+
+
+.color-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(-50%) translateY(-50%);
+
+    background-color: rgba(79, 98, 109, 0.55);
+}
+
+.backgroundGradient {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(-50%) translateY(-50%);
+    background: linear-gradient(-45deg, #0661a6, #290c65, #83ffff, #01448f);
+    background-size: 500% 500%;
+    -webkit-animation: Gradient 8s ease infinite;
+    -moz-animation: Gradient 8s ease infinite;
+    animation: Gradient 15s ease infinite;
+    opacity: 30%;
+    z-index: 0;
+}
+
+    
+        
+        
+        @-webkit-keyframes Gradient {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+        @-moz-keyframes Gradient {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+        @keyframes Gradient { 
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+    
